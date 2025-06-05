@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengapa Belajar HTML Itu Sangat Penting di Era Digital</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Panduan HTML</a></li>
+            <li><a href="#">Tentang Penulis</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <header>
+            <h1>Mengapa Belajar HTML Itu Sangat Penting di Era Digital</h1>
+            <p>Dibuat oleh: yuda noer ramadhan .</p>
+            <p>Dipublikasikan pada: <time datetime="2025-05-17">17 Mei 2025</time></p>
+        </header>
+
+        <section>
+            <h2>HTML: Bahasa Universal untuk Membangun Struktur Web</h2>
+            <p>Di jantung setiap halaman web yang Anda kunjungi terdapat HTML (HyperText Markup Language). Ia adalah bahasa markup standar yang digunakan untuk membuat struktur dan konten dari halaman web. Bayangkan HTML sebagai kerangka bangunan sebuah website. Tanpa HTML, semua elemen seperti teks, gambar, video, dan tautan hanya akan menjadi tumpukan informasi tanpa susunan yang jelas dan bermakna bagi browser.</p>
+            <p>Keakuratan dalam penulisan sintaks HTML sangat krusial. Setiap tag memiliki fungsi spesifik, dan penggunaan tag yang tepat memastikan bahwa konten Anda dirender dengan benar oleh berbagai browser dan perangkat. Selain itu, struktur HTML yang semantik (menggunakan tag seperti `<article>`, `<nav>`, `<aside>`, `<footer>`) tidak hanya meningkatkan keterbacaan kode bagi pengembang, tetapi juga membantu mesin pencari dalam memahami konteks dan relevansi konten Anda, yang berdampak positif pada SEO (Search Engine Optimization).</p>
+        </section>
+
+        <section>
+            <h2>HTML sebagai Fondasi untuk Teknologi Web Lainnya</h2>
+            <p>Mempelajari HTML bukan hanya tentang membuat halaman statis. Ia adalah batu loncatan penting untuk menguasai teknologi web lainnya. CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan visual dan gaya dari elemen HTML, sementara JavaScript memungkinkan interaktivitas dan fungsionalitas dinamis pada halaman web. Tanpa pemahaman yangSolid tentang HTML, akan sulit untuk memanfaatkan potensi penuh dari CSS dan JavaScript.</p>
+            <p>Sebagai contoh, untuk menata letak elemen-elemen di halaman menggunakan CSS Grid atau Flexbox, Anda perlu memahami bagaimana elemen-elemen tersebut terstruktur dalam HTML. Begitu pula dengan manipulasi DOM (Document Object Model) menggunakan JavaScript, yang secara langsung berinteraksi dengan struktur HTML untuk mengubah konten dan perilaku halaman web secara dinamis. Oleh karena itu, penguasaan HTML adalah investasi mendasar bagi siapa pun yang ingin serius berkecimpung di dunia pengembangan web.</p>
+        </section>
+
+        <section>
+            <h2>HTML dan Aksesibilitas Web yang Inklusif</h2>
+            <figure>
+                <img src="foto.4.webp" width="50%">
+                <figcaption>Struktur HTML yang baik mendukung aksesibilitas web.</figcaption>
+            </figure>
+            <p>Salah satu aspek penting yang sering terabaikan adalah peran HTML dalam menciptakan website yang aksesibel bagi semua orang, termasuk mereka yang memiliki disabilitas. Penggunaan tag HTML yang semantik dan atribut yang tepat (seperti `alt` pada gambar, `aria-label` untuk elemen interaktif) membantu screen reader dan teknologi asistif lainnya dalam menyampaikan konten kepada pengguna dengan kebutuhan khusus.</p>
+            <p>Dengan memahami prinsip-prinsip aksesibilitas dalam HTML, kita dapat memastikan bahwa informasi dan fungsionalitas website kita dapat diakses oleh audiens yang lebih luas. Ini bukan hanya masalah etika, tetapi juga dapat berdampak positif pada jangkauan dan reputasi website kita. Beberapa praktik baik dalam HTML untuk aksesibilitas meliputi penggunaan heading yang terstruktur (`h1` hingga `h6`), pemberian label yang jelas pada form (`<label>`), dan memastikan navigasi yang logis dan mudah dipahami.</p>
+            <ol>
+                <li>Struktur konten yang logis menggunakan heading.</li>
+                <li>Pemberian deskripsi alternatif untuk gambar menggunakan atribut `alt`.</li>
+                <li>Penggunaan label yang tepat untuk elemen form.</li>
+            </ol>
+        </section>
+    </article>
+
+    <footer>
+        <p>&copy; 2025 YNR</p>
+    </footer>
+</body>
+</html>

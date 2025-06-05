@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran Kursus Online</title>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Kursus Online</h1>
+    <p>
+      Selamat datang di formulir pendaftaran kursus online kami! Silakan isi
+      formulir di bawah ini dengan lengkap dan benar untuk mendaftar. Setelah
+      mengisi formulir, klik tombol "Submit" untuk mengirimkan pendaftaran Anda.
+    </p>
+
+    <form action="/proses-pendaftaran" method="POST">
+      <fieldset>
+        <legend>Data Pribadi</legend>
+        <div>
+          <label for="nama_lengkap">Nama Lengkap:</label>
+          <input
+            type="text"
+            id="nama_lengkap"
+            name="nama_lengkap"
+            placeholder="Masukkan nama lengkap Anda"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan alamat email Anda"
+            required
+          />
+        </div>
+        <div>
+          <label for="no_telepon">No. Telepon:</label>
+          <input
+            type="tel"
+            id="no_telepon"
+            name="no_telepon"
+            placeholder="Contoh: 081234567890"
+          />
+        </div>
+        <div>
+          <label>Jenis Kelamin:</label>
+          <input
+            type="radio"
+            id="laki_laki"
+            name="jenis_kelamin"
+            value="laki-laki"
+          />
+          <label for="laki_laki">Laki-laki</label>
+          <input
+            type="radio"
+            id="perempuan"
+            name="jenis_kelamin"
+            value="perempuan"
+          />
+          <label for="perempuan">Perempuan</label>
+        </div>
+        <div>
+          <label for="tanggal_lahir">Tanggal Lahir:</label>
+          <input type="date" id="tanggal_lahir" name="tanggal_lahir" />
+        </div>
+        <div>
+          <label for="alamat">Alamat:</label>
+          <textarea
+            id="alamat"
+            name="alamat"
+            placeholder="Masukkan alamat lengkap Anda"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Informasi Kursus</legend>
+        <div>
+          <label for="pilihan_kursus">Pilihan Kursus:</label>
+          <select id="pilihan_kursus" name="pilihan_kursus">
+            <option value="">-- Pilih Kursus --</option>
+            <option value="html_dasar">HTML Dasar</option>
+            <option value="css_lanjutan">CSS Lanjutan</option>
+            <option value="javascript_fundamental">
+              JavaScript Fundamental
+            </option>
+            <option value="react_js">React JS</option>
+          </select>
+        </div>
+        <div>
+          <label>Jadwal:</label>
+          <input type="checkbox" id="senin" name="jadwal" value="senin" />
+          <label for="senin">Senin</label>
+          <input type="checkbox" id="selasa" name="jadwal" value="selasa" />
+          <label for="selasa">Selasa</label>
+          <input type="checkbox" id="rabu" name="jadwal" value="rabu" />
+          <label for="rabu">Rabu</label>
+          <input type="checkbox" id="kamis" name="jadwal" value="kamis" />
+          <label for="kamis">Kamis</label>
+          <input type="checkbox" id="jumat" name="jadwal" value="jumat" />
+          <label for="jumat">Jumat</label>
+          <input type="checkbox" id="sabtu" name="jadwal" value="sabtu" />
+          <label for="sabtu">Sabtu</label>
+          <input type="checkbox" id="minggu" name="jadwal" value="minggu" />
+          <label for="minggu">Minggu</label>
+        </div>
+        <div>
+          <label>Level:</label>
+          <input type="radio" id="pemula" name="level" value="pemula" />
+          <label for="pemula">Pemula</label>
+          <input type="radio" id="menengah" name="level" value="menengah" />
+          <label for="menengah">Menengah</label>
+          <input type="radio" id="mahir" name="level" value="mahir" />
+          <label for="mahir">Mahir</label>
+        </div>
+        <div>
+          <label for="cv">File CV (PDF):</label>
+          <input type="file" id="cv" name="cv" accept="application/pdf" />
+        </div>
+        <div>
+          <label for="motivasi">Motivasi Mengikuti Kursus:</label>
+          <textarea
+            id="motivasi"
+            name="motivasi"
+            placeholder="Jelaskan motivasi Anda mengikuti kursus ini"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
